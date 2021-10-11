@@ -37,7 +37,7 @@ storage = firebase.storage()
 st.sidebar.title("Our community app")
 
 # Authentication
-choice = st.sidebar.selectbox('login/Signup', ['Login', 'Sign up'])
+choice = st.sidebar.selectbox('login/Signup', ['Login', 'Sign up', 'Masuk'])
 
 # Obtain User Input for email and password
 email = st.sidebar.text_input('Please enter your email address')
